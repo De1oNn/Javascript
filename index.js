@@ -121,8 +121,31 @@ console.log('hello world');
 //console.log(c)
 
 // 17 
-let a = 85
-let b = 75
-let c = 96
-let d = 69
+//let a = 10
+//let b = 3 
+//let c = 5
+ // 18
 
+// 18 
+//let a = 11
+
+//if (a > 14)
+//    console.log("Yes")
+//    else{
+//        console.log("no")
+//    }
+
+// 19
+
+//let a = 2 
+//let b = 3 
+//let c = 4
+//d = a * b - c
+//console.log(d)
+
+// 20
+ let a = 3
+
+ if (b = a * 2){
+    console.log(b)
+ }
