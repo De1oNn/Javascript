@@ -473,8 +473,163 @@ console.log('hello world');
 
 //4 t hugaavddag 400 d huvaagdadgui
 
-// teams7
+// 7201
 
-let a = 1
+//for (let i = 0; i < 1; i++) {
+//    console.log("IOI");
+//}
 
-if(a )
+// 7202
+
+//for (let i = 0; i < 3; i++) {
+//    console.log("IoI");
+//}
+ 
+// 7203
+//let n = prompt("doo oruulnuu")
+
+//for (let i = 0; i < n; i++) {
+//    console.log("IOI");
+//}
+
+// 7204
+
+//let n = prompt("too oruulna uu")
+
+//let sum = 0;
+
+//for (let i = 1; i <= n; i++) {
+//    sum = sum + i
+//}
+//console.log(sum);
+
+// 7205
+
+//let n = prompt("too oruulna uu")
+//let sum = 1
+
+//for (let i = 1; i <= n; i++){
+//    sum = sum * i
+//}
+//console.log(sum);
+
+// 7206
+
+//let n = prompt("hussen toogoo oruul")
+
+//let sum = 0;
+
+//for (let i = 1; i <= n; i++) {
+//    sum = sum + 100
+//}
+//console.log(sum);
+
+// 7207
+
+//let a = prompt("buhel too")
+//let b = prompt("davtah too")
+//let sum;
+//for (let i = 1; i <= b; i++) {
+//    sum = a * b
+//}
+//console.log(sum);
+
+//7208
+
+//let a = prompt("too oruulna uu")
+//let sum = 1;
+
+//for(let i = 1; i <= a; i++) {
+//    sum = sum * 2
+//}
+//console.log(sum);
+
+// 7209
+
+//let a = 3
+//let b = 4
+//let sum = 1;
+//for (let i = 1; i <= b; i++) {
+//    sum = sum * a 
+//} 
+//console.log(sum);
+
+// 7215 
+
+//let a = 5 
+
+//if (a > 3){
+//    console.log("tentssen")
+//} else {
+//    console.log("tentseegui");
+//}
+
+// 7216
+
+//let a = prompt("1-5 hurtel dung oruul")
+
+//if (a == 5){
+//    console.log("onts");
+//} else if (a == 4) {
+//    console.log("sain");
+//} else if (a == 3) {
+//    console.log("dund");
+//} else {
+//    console.log("muu");
+//}
+
+// 7118
+
+//let a = prompt("1-7 hoorond udruu oruulna uu")
+
+//if (a == 1) {
+//    console.log("Monday");
+//} else if (a == 2){
+//    console.log("Tuesday");
+//} else if (a == 3) {
+//    console.log("Wednesday");
+//} else if (a == 4) {
+//    console.log("Thuesday");
+//} else if (a == 5) {
+//    console.log("Friday");
+//} else if (a == 6) {
+//    console.log("Saturday");
+//} else {
+//    console.log("Sunday")
+//}
+
+// 7210 
+
+//let a = prompt("too oruul")
+
+//for (let i = 1; i <= 10; i++){
+//    console.log(`${a}*${i}=${a*i}`);
+//}
+
+// 7211
+
+//let a = 3
+//let b = 5
+//let sum = 1;
+//for(let i = 1; i <= b; i++) {
+//    sum = sum * a
+//    console.log(`${a}*${b} = ${sum}`);
+//}
+
+// 7019 
+
+//let B = 2 
+//let C = 3
+//let D = 4
+
+//let a = B * C - D
+
+//console.log(a);
+
+
+//7170 
+
+let davhar = prompt("davhriin too")
+let haalga = prompt("haalganii too")
+
+if ()
