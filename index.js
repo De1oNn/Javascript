@@ -613,7 +613,7 @@ console.log('hello world');
 //let sum = 1;
 //for(let i = 1; i <= b; i++) {
 //    sum = sum * a
-//    console.log(`${a}*${b} = ${sum}`);
+//   console.log(`${a}*${i} = ${sum}`);
 //}
 
 // 7019 
@@ -626,10 +626,55 @@ console.log('hello world');
 
 //console.log(a);
 
+// 7500
 
-//7170 
+//let a = prompt("too oruulna uu")
+//let b = prompt("2doh too oruulna uu")
+//let c = prompt("3 dah too oruulna uu")
 
-let davhar = prompt("davhriin too")
-let haalga = prompt("haalganii too")
+//let d = a + b;
 
-if ()
+//console.log(d);
+
+// 7070
+
+//let a = 10
+
+//for(let i = 1; i <= a; i++){
+//    console.log(i);
+//}
+
+// 7071
+//const n = prompt("Натурал тоо оруулна уу:");
+
+//const sum = (n * (n + 1) * (2 * n + 1)) / 6;
+
+//console.log(sum);
+
+// 7301
+
+//const a = prompt("too oruulnauu")
+//const B = a[0]
+//console.log(B);
+
+
+//let a = prompt("too oruulna uu");
+//let b = 100;
+
+//let c = a + b
+//console.log(c)
+
+
+//let a = prompt("too oruulna uu")
+//if(a > 3){
+//    console.log("tetssen");
+//}   else {
+//    console.log("tentseegui");
+//}
+
+//let c = 5
+//for (let i = 1; i <= c; i++){
+//    console.log(i);
+//}
+
+
