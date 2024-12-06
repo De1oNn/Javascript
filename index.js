@@ -699,4 +699,28 @@ console.log('hello world');
 //let b = a[0]
 //console.log(b);
 
+// 7400
+
+//let a = 5;
+//let sum = '';
+//for (let i = 1; i <= a; i++){
+//    sum = sum + i
+//}
+//console.log(sum);
+
+
+// 7402
+
+//let a = 5;
+//let sum = '';
+
+//for (let i = 1; i <= a; i++) {
+//    sum += i
+//    console.log(sum);
+//}
+
+// 7310
+
+
+
 
