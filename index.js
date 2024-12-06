@@ -636,21 +636,6 @@ console.log('hello world');
 
 //console.log(d);
 
-// 7070
-
-//let a = 10
-
-//for(let i = 1; i <= a; i++){
-//    console.log(i);
-//}
-
-// 7071
-//const n = prompt("Натурал тоо оруулна уу:");
-
-//const sum = (n * (n + 1) * (2 * n + 1)) / 6;
-
-//console.log(sum);
-
 // 7301
 
 //const a = prompt("too oruulnauu")
@@ -676,5 +661,42 @@ console.log('hello world');
 //for (let i = 1; i <= c; i++){
 //    console.log(i);
 //}
+
+// 7070
+
+//let a = 10 
+//let sum = 0;
+//for (let i = 1; i <= 10; i++){
+//    sum = sum + i
+//    console.log(sum);
+//}
+
+// 7071
+
+//let a = 5
+//let sum = 0;
+//for (let i = 1; i <= a; i++) {
+//   sum = sum + (i * i)
+//    console.log(sum);
+//}
+
+
+// 7072
+
+//let a = 9
+//let sum = 0;
+//for (let i = 1; i <= a; i++)  {
+//    if (i % 2 == 1) {
+//        sum = sum + i
+//    }
+//    console.log(sum);
+//}
+
+
+// 7301 
+
+//let a = 1234
+//let b = a[0]
+//console.log(b);
 
 
