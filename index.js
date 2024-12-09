@@ -1,33 +1,37 @@
-//alert("hello world");
-console.log('hello world');
 
-//let a = 3, b = 4, c = 5;
-//console.log(a + b + c);
-//2
-//let a = 12;
-//let b = 23;
+7001
+function bodlogo7001 (a, b) {
+    console.log ((a + b));
+}
+bodlogo7001 (12, 23);
 
-//console.log(a + b);
+7004
+function bodlogo7004 (a) {
+    console.log(Math.pow(a, 3));
+}
+bodlogo7004 (5)
+//bodlogo7004 (a = prompt());
 
-//3
-//let a = 5;
+7003
+function bodlogo7003 (a ,b) {
+    console.log(a * b, (a + b)*2);
+}
+bodlogo7003 (6, 4)
 
-//console.log(Math.pow(a, 3));
+7005
+function bodlogo7005 (a) {
+    console.log(y = 3 * a - 5);
+}
+bodlogo7005 (1)
 
-//4
+7006
+function bodlogo7006 (a) {
+    console.log((Math.pow(2, (4 * a))) - 3 * a + 5);
+} 
+bodlogo7006 (-2)
 
-//let a = 4, b = 6;
-//console.log(a * b, (a + b)*2);
-
-//5
-
-//let x = 1;
-//y = 3*x - 5;
-
-//console.log(y)
 
 //6
-
 //let x = -2
 
 //y = (Math.pow(2, (4*x)))- 3*x + 5;
@@ -39,20 +43,42 @@ console.log('hello world');
 //q = w - 3*x + 5
 //console.log(q)
 
+7007
+function bodlogo7007 (a) {
+    console.log(a % 10);
+}
+bodlogo7007 (476)
 
-//7
+7008
+function bodlogo7008 (a) {
+    console.log(b= Math.floor(a % 100 / 10));
+}
+bodlogo7008 (423)
 
-//let asd = 476;
 
-//let suuliintoo = asd % 10
-//console.log(suuliintoo)
-//8
-//let b = 423;
-//let g = Math.floor(b % 100 /10)
-//console.log(g)
+console.log(7009);
+
+7009
+function bodlogo7009 (a) {
+    let onedigit = parseInt
+
+}
+bodlogo7009 (27)
+
+7010
+function bodlogo7010 (a) {
+    let str = a.toString();
+    let sum = 0;
+    for (let i = 0; i <= str.length; i++) {
+        sum = sum + parseInt(str.charAt(i));
+    }
+    return sum;
+}
+let a = 123
+console.log(bodlogo7010(a));
 
 //9
-//let c = 123;
+//let c = 123;  
 
 //let suuliintoo = c % 10 
 //console.log(suuliintoo)
@@ -63,347 +89,251 @@ console.log('hello world');
 //let l = c % 100
 //let p = l / 10 
 //console.log(Math.floor(p))
-
 //let all = (suuliintoo * Math.floor(h) * Math.floor(p))
 //console.log(Math.floor(all))
-//10
-//let int =  200
 
-//f = Math.floor(int / 60);
-//m = ((int % 60));
-// console.log(m)
-// console.log(f)
-
-//11
-
-//let all = 3612;
-
-//let second = all % 3600
-//let hour = Math.floor(all / 3600)
-//let minute = Math.floor((all % 3600) / 60 )
-//console.log(hour, minute, second)
-
-// 12
-//let a = 3
-//let b = 4
-
-//let c = 3 * 60
-//let d = c + b 
-//console.log(d) 
-
-// 13
-//let a = 44 
-
-//let honog = Math.floor(44 / 24)
-//let tsag = a % 24
-//console.log(honog, tsag)
-
-// 14 
-//let a = 27
-
-//let sar = a % 12
-//let jil = Math.floor(a / 12)
-//console.log(jil, sar)
-
-// 15
-
-//let a = 1
-//let b = 2
-//let c = 3
-
-//let d = Math.max(a, b, c)
-//console.log(d)
-
-// 16
-//let a = 9 
-//let b = 6
-//let c = Math.min(a, b)
-//console.log(c)
-
-// 17 
-//let a = 10
-//let b = 3 
-//let c = 5
-// 18
-
-// 18 
-//let a = 11
-
-//if (a > 14)
-//    console.log("Yes")
-//    else{
-//        console.log("no")
-//    }
-
-// 19
-
-//let a = 2 
-//let b = 3 
-//let c = 4
-//d = a * b - c
-//console.log(d)
-
-// 20
-// let a = 3
-
-// if (b = a * 2){
-//    console.log(b)
-// }
-
-// 7103 
-
-//let a = 1
-//let b = 2
-//let c = 3
-
-//console.log(Math.max(a, b, c))
-
-// 7104 
-
-//let a = 1
-//let b = 2
-//let c = 3
-//let d = 4
-
-//console.log(Math.min(a, b, c, d))
-
-// 7105
-
-//let a = 85
-//let b = 90
-//let c = 70
-//let d = 69
-
-//let sum = 0 ;
-//console.log(sum);
-
-//if (a>80){
-//   sum = sum+a
-//}
-//console.log(sum);
-//if(b>80){
-//   sum = sum+b
-//}
-//console.log(sum);
-//if(c>80){
-//   sum = sum+c
-//}
-//console.log(sum);
-//if(d>80){
-//   sum = sum+d
-//}
-//console.log(sum);
-
-// test - hicheel
-
-//let age = 5;
-
-//if (age >= 20){
-//   console.log('tanii nas', age);
-//   console.log('ta nasand hursen baina');
-//} else {
-//   console.log('ta nasand hureegui baina');
-//   console.log('tanii nas', age);
-//}
-
-//let a = 80;
-//let b = 1000;
-//let c = 10;
-
-//if (a>b){
-//   if(a>c) {
-//      console.log(a, "too ih")
-//   }
-//} if (b > a) {
-//   if (b > c ) {
-//      console.log(b, "ih too")
-//   }
-//} if (c > a) {
-//   if (c > b) {
-//      console.log(c, "ih too")
-//   }
-//}
-
-
-// 7106 
-
-//let a = 3
-//let b = 6
-//let c = 2 
-//let d = 4
-
-//let sum = 1
-
-//if (a>5) {
-//   sum = sum * a
-//}
-//if (b>5) {
-//   sum = sum * b
-//}
-//if (c>5) {
-//   sum = sum * c
-//}
-//if (d>5) {
-//   sum = sum * d
-//}
-
-//console.log(sum);
-
-// 7107 
-
-//let a = 10
-//let b = 10 
-//let c = 1000
-
-//let sum = 0;
-
-//if (a % 2 == 0) {
-//   sum = sum + a
-//}
-//if (b % 2 == 0) {
-//   sum = sum + b
-//}
-//if (c % 2 == 0) {
-//   sum = sum + c
-//} 
-//console.log(sum);
-
-// 7108
-
-//let a = 5 
-//let b = 3
-//let c = 3
-
-//let sum = 1
-
-//if (a % 2 == 0) {
-//}  else {
-//   sum = sum * a
-//}
-//if (b % 2 == 0) {
-//} else {
-//   sum = sum * b
-//}
-//if (c % 2 == 0) {
-//} else {
-//   sum = sum * c
-//}
-//console.log(sum);
-
-// 7109 
-
-//let a = 1 
-//let b = 5
-//let c = 5
-
-//let sum = 0;
-
-//if (5 == 1 * a) {
-//   sum = sum + a
-//}
-//if (5 == 1 * b) {
-//   sum = sum + b
-//}
-//if (5 == 1 * c) {
-//   sum = sum + c
-//}
-//console.log(sum);
-
-// 7110
-
-//let a = 3
-//let b = 12
-//let c = 9 
-//let d = 9
-
-//let sum = 1;
-
-//if (a % 2 == 0) {
-//} else {
-//   sum = sum + 1
-//}
-//if (b % 2 == 0) {
-//} else {
-//   sum = sum + 1
-//}
-//if (c % 2 == 0) {
-//} else {
-//   sum = sum + 1
-//}
-//if (d % 2 == 0) {
-//} else {
-//   sum = sum + 1
-//}
-//console.log(sum);
-
-// 7111
-
-//let a = 7
-//let b = 22
-//let c = 13 
-//let d = 30
-
-//let sum = 0;
-
-//if (a % 11 == 0){
-//} else {
-//   sum = sum + a
-//}
-//if (b % 11 == 0){
-//} else {
-//   sum = sum + b
-//}
-//if (c % 11 == 0){
-//} else {
-//   sum = sum + c
-//}
-//if (d % 11 == 0){
-//} else {
-//   sum = sum + d
-//}
-//console.log(sum);
-
-// 7112 
-
-//let a = 11
-
-//if(a > 10) {
-//   console.log("Yes")
-//} else {
-//   console.log("No"); 
-//}
-
-// 7113
-
-//let a = 4
-
-//if(a < 5){
-//   console.log("Yes")
-//}  else {
-//   console.log("No")
-//}
-
-// 7114
-
-//let a = 3
-//let b = 4
-//let c = 5
-
-//if(a % 2 == 0){
-//   console.log("Yes");
-//} else {
-//   console.log("No")
-//}
-//if(b % 2 == 0){
-//   console.log("Yes");
-//} else {
-//   console.log("No")
-//}
-//if(c % 2 == 0) {
-//   console.log("Yes")
-//} else {
-//   console.log("No")
-//}
+7011
+function bodlogo7011 (a) {
+    console.log(Math.floor(a / 60), a % 60);
+}
+bodlogo7011 (200);
+
+7012
+function bodlogo7012(a) {
+    console.log(Math.floor(a / 3600));
+    console.log(Math.floor((a % 3600) / 60 ));
+    console.log(a % 3600);
+
+}
+bodlogo7012 (3612)
+
+7013
+function bodlogo7013(a, b) {
+    console.log((a * 60) + b);
+}
+bodlogo7013 (3, 4)
+
+7014
+function bodlogo7014 (a, b, c) {
+    console.log((a * 3600) + (b * 60) + c);
+}
+bodlogo7014 (1, 2, 3)
+
+7015
+function bodlogo7015 (a) {
+    let honog = Math.floor(a / 24)
+    let tsag = a % 24
+    console.log(honog, tsag)
+}
+bodlogo7015 (98)
+
+7016
+function bodlogo7016 (a, b) {
+    console.log((a * 24) + b);
+}
+bodlogo7016 (4, 6)
+
+7017
+function bodlogo7017 (a) {
+    let sar = a % 12
+    let jil = Math.floor(a / 12)
+    console.log(jil, sar);
+}
+bodlogo7017 (27)
+
+7018
+function bodlogo7018 (a, b) {
+    console.log((a * 12) + b);
+}
+bodlogo7018 (2, 7)
+
+7101
+function bodlogo7101 (a, b) {
+    console.log(Math.max(a, b));
+}
+bodlogo7101 (14, 16)
+
+7102
+function bodlogo7102 (a, b) {
+    console.log(Math.min(a, b));
+}
+bodlogo7102 (6, 9)
+
+
+7105
+function bodlogo7105 (a, b, c, d) {
+    let sum = 0;
+    if (a>80){
+        sum = sum+a
+    }
+    if (b>80){
+        sum = sum+b
+    }
+    if (c>80){
+        sum = sum+c
+    }
+    if (d>80){
+        sum = sum+d
+    }
+        console.log(sum);
+    }
+bodlogo7105 (88, 88, 99, 100)
+
+7106
+function bodlogo7106 (a, b, c, d) {
+    let sum = 1
+
+    if (a>5) {
+    sum = sum * a
+    }
+    if (b>5) {
+    sum = sum * b
+    }
+    if (c>5) {
+    sum = sum * c
+    }
+    if (d>5) {
+    sum = sum * d
+    }
+
+    console.log(sum);
+}
+bodlogo7106 (3, 6, 2, 104)
+
+7107
+function bodlogo7107 (a, b, c) {
+    let sum = 0;
+
+    if (a % 2 == 0) {
+    sum = sum + a
+    }
+    if (b % 2 == 0) {
+    sum = sum + b
+    }
+    if (c % 2 == 0) {
+    sum = sum + c
+    } 
+    console.log(sum);
+}
+bodlogo7107 (12, 5, 6)
+
+7108
+function bodlogo7108 (a, b, c) {
+    let sum = 1;
+
+    if (a % 2 !== 0) {
+    sum = sum * a
+    }
+    if (b % 2 !== 0) {
+    sum = sum * b
+    }
+    if (c % 2 !== 0) {
+    sum = sum * c
+    } 
+    console.log(sum);
+}
+bodlogo7108 (11, 5, 6)
+
+7109 
+function bodlogo7109 (a, b, c) {
+    let sum = 0;
+
+    if (5 == 1 * a) {
+       sum = sum + 1
+    }
+    if (5 == 1 * b) {
+       sum = sum + 1
+    }
+    if (5 == 1 * c) {
+       sum = sum + 1   
+    }
+    console.log(sum);
+}
+bodlogo7109 (1, 5, 5)
+
+7110
+function bodlogo7110 (a, b, c, d) {
+    let sum = 1;
+
+    if (a % 2 !== 0) {
+    } sum = sum + 1
+    if (b % 2 !== 0) {
+    } sum = sum + 1
+    if (c % 2 !== 0) {
+    } sum = sum + 1
+    if (d % 2 !== 0) {
+    } sum = sum + 1
+    console.log(sum);
+}
+bodlogo7110 (3, 3, 3, 3)
+
+7111
+function bodlogo7111 (a, b, c, d) {
+    let sum = 0;
+
+if (a % 11 === 0){
+    sum != sum + a
+} else {
+   sum = sum + a
+}
+if (b % 11 === 0){
+    sum != sum + b
+} else {
+   sum = sum + b
+}
+if (c % 11 === 0){
+    sum != sum + c
+} else {
+   sum = sum + c
+}
+if (d % 11 === 0){
+    sum != sum + d
+} else {
+   sum = sum + d
+}
+console.log(sum);
+}
+bodlogo7111 (11, 22, 33, 41)
+
+7112 
+function bodlogo7112 (a) {
+    if (a > 10) {
+        console.log("YES");
+    } else {
+        console.log("NO");
+    }
+}
+bodlogo7112(11)
+
+7113
+function bodlogo7113 (a) {
+    if(a < 5){
+        console.log("YES")
+    }  else {
+        console.log("NO")
+    }
+}
+bodlogo7113 (7)
+
+7114 
+function bodlogo7114 (a, b, c,) {
+    if(a % 2 == 0){
+        console.log("Yes");
+    } else {
+        console.log("No")
+    }
+    if(b % 2 == 0){
+        console.log("Yes");
+    } else {
+        console.log("No")
+    }
+    if(c % 2 == 0) {
+        console.log("Yes")
+    } else {
+        console.log("No")
+    }
+}
+bodlogo7114 (3, 4, 5)
 
 // teams1
 
@@ -473,150 +403,143 @@ console.log('hello world');
 
 //4 t hugaavddag 400 d huvaagdadgui
 
-// 7201
+7201
+function bodlogo7201 (a) {
+    for (let i = 0; i < a; i++)
+        console.log("IOI");
+}
+bodlogo7201 (1)
 
-//for (let i = 0; i < 1; i++) {
-//    console.log("IOI");
-//}
+7204
+function bodlogo7204 (n) {
+    let sum = 0; 
+    for (let i = 1; i <= n; i++) {
+        sum = sum + i
+    }
+    console.log(sum);
+}
+bodlogo7204 (5)
 
-// 7202
+7205
+function bodlogo7205 (n) {
+    let sum = 1;
+    for (let i = 1; i <= n; i++) {
+        sum = sum * i
+    }
+    console.log(sum);
+}
+bodlogo7205 (10);
 
-//for (let i = 0; i < 3; i++) {
-//    console.log("IoI");
-//}
- 
-// 7203
-//let n = prompt("doo oruulnuu")
+7206
+function bodlogo7206 (n) {
+    let sum = 0
+    for (let i = 1; i <= n; i++) {
+        sum = sum + 100
+    }
+    console.log(sum);
+}
+bodlogo7206 (6);
 
-//for (let i = 0; i < n; i++) {
-//    console.log("IOI");
-//}
+7207
+function bodlogo7207 (a, b) {
+    let sum;
+    for (let i = 1; i <= b; i++) {
+        sum = a * b
+    }
+    console.log(sum);
+}
+bodlogo7207 (50, 6)
 
-// 7204
+7208
+function bodlogo7208 (a) {
+    let sum = 1;
 
-//let n = prompt("too oruulna uu")
+    for(let i = 1; i <= a; i++) {
+    sum = sum * 2
+    }
+    console.log(sum);
+}
+bodlogo7208 (7);
 
-//let sum = 0;
+7209
+function bodlogo7209 (a, b) {
+    let sum = 1;
+    for (let i = 1; i <= b; i++) {
+    sum = sum * a 
+    } 
+    console.log(sum);
+}
+bodlogo7209 (5, 5)
 
-//for (let i = 1; i <= n; i++) {
-//    sum = sum + i
-//}
-//console.log(sum);
+7215 
+function bodlogo7215 (a) {
+    if (a > 3){
+        console.log("tentssen")
+    } else {
+        console.log("tentseegui");
+    }
+}
+bodlogo7215 (5)
 
-// 7205
+7216
+function bodlogo7216 (a) {
+    if (a == 5){
+        console.log("onts");
+    } else if (a == 4) {
+        console.log("sain");
+    } else if (a == 3) {
+        console.log("dund");
+    } else {
+        console.log("muu");
+    }
+}
+bodlogo7216 (5)
 
-//let n = prompt("too oruulna uu")
-//let sum = 1
+7118
+function bodlogo7118 (a) {
+    if (a == 1) {
+        console.log("Monday");
+    } else if (a == 2){
+        console.log("Tuesday");
+    } else if (a == 3) {
+        console.log("Wednesday");
+    } else if (a == 4) {
+        console.log("Thuesday");
+    } else if (a == 5) {
+        console.log("Friday");
+    } else if (a == 6) {
+        console.log("Saturday");
+    } else {
+        console.log("Sunday")
+    }
+}
+bodlogo7118 (2)
 
-//for (let i = 1; i <= n; i++){
-//    sum = sum * i
-//}
-//console.log(sum);
+7210 
+function bodlogo7210 (a) {
 
-// 7206
+    for (let i = 1; i <= 10; i++){
+        console.log(`${a}*${i}=${a*i}`);
+    }
+}
+bodlogo7210 (10);
 
-//let n = prompt("hussen toogoo oruul")
+7211
+function bodlogo7211 (a, b) {
+    let sum = 1;
+    for(let i = 1; i <= b; i++) {
+        sum = sum * a
+       console.log(`${a}*${i} = ${sum}`);
+    }
+}
+bodlogo7211 (3, 5)
 
-//let sum = 0;
-
-//for (let i = 1; i <= n; i++) {
-//    sum = sum + 100
-//}
-//console.log(sum);
-
-// 7207
-
-//let a = prompt("buhel too")
-//let b = prompt("davtah too")
-//let sum;
-//for (let i = 1; i <= b; i++) {
-//    sum = a * b
-//}
-//console.log(sum);
-
-//7208
-
-//let a = prompt("too oruulna uu")
-//let sum = 1;
-
-//for(let i = 1; i <= a; i++) {
-//    sum = sum * 2
-//}
-//console.log(sum);
-
-// 7209
-
-//let a = 3
-//let b = 4
-//let sum = 1;
-//for (let i = 1; i <= b; i++) {
-//    sum = sum * a 
-//} 
-//console.log(sum);
-
-// 7215 
-
-//let a = 5 
-
-//if (a > 3){
-//    console.log("tentssen")
-//} else {
-//    console.log("tentseegui");
-//}
-
-// 7216
-
-//let a = prompt("1-5 hurtel dung oruul")
-
-//if (a == 5){
-//    console.log("onts");
-//} else if (a == 4) {
-//    console.log("sain");
-//} else if (a == 3) {
-//    console.log("dund");
-//} else {
-//    console.log("muu");
-//}
-
-// 7118
-
-//let a = prompt("1-7 hoorond udruu oruulna uu")
-
-//if (a == 1) {
-//    console.log("Monday");
-//} else if (a == 2){
-//    console.log("Tuesday");
-//} else if (a == 3) {
-//    console.log("Wednesday");
-//} else if (a == 4) {
-//    console.log("Thuesday");
-//} else if (a == 5) {
-//    console.log("Friday");
-//} else if (a == 6) {
-//    console.log("Saturday");
-//} else {
-//    console.log("Sunday")
-//}
-
-// 7210 
-
-//let a = prompt("too oruul")
-
-//for (let i = 1; i <= 10; i++){
-//    console.log(`${a}*${i}=${a*i}`);
-//}
-
-// 7211
-
-//let a = 3
-//let b = 5
-//let sum = 1;
-//for(let i = 1; i <= b; i++) {
-//    sum = sum * a
-//   console.log(`${a}*${i} = ${sum}`);
-//}
-
-// 7019 
+7019 
+function bodlogo7019 (b, c, d) {
+    let a = b * c - d
+    console.log(a);  
+}
+bodlogo7019(2, 3, 4)
 
 //let B = 2 
 //let C = 3
