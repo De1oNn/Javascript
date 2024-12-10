@@ -576,14 +576,6 @@ function bodlogo7019 (b, c, d) {
 }
 bodlogo7019(2, 3, 4)
 
-//let B = 2 
-//let C = 3
-//let D = 4
-
-//let a = B * C - D
-
-//console.log(a);
-
 // 7500
 
 //let a = prompt("too oruulna uu")
@@ -594,8 +586,12 @@ bodlogo7019(2, 3, 4)
 
 //console.log(d);
 
-// 7301
-
+7301
+function bodlogo7301 (a) {
+    const b = a[0]
+    return b;
+}
+bodlogo7301 (1234);
 //const a = prompt("too oruulnauu")
 //const B = a[0]
 //console.log(B);
@@ -620,35 +616,43 @@ bodlogo7019(2, 3, 4)
 //    console.log(i);
 //}
 
-// 7070
-
-//let a = 10 
-//let sum = 0;
-//for (let i = 1; i <= 10; i++){
-//    sum = sum + i
-//    console.log(sum);
-//}
-
-// 7071
-
-//let a = 5
-//let sum = 0;
-//for (let i = 1; i <= a; i++) {
-//   sum = sum + (i * i)
-//    console.log(sum);
-//}
+7070
+console.log(7070);
+function bodlogo7070 (a) {
+    let sum = 0;
+    for (let i = 1; i <= a; i++){
+        sum = sum + i
+        console.log(sum);
+    }
+}
+bodlogo7070(10);
 
 
-// 7072
+7071
+console.log(7071);
+function bodlogo7071 (a) {
+    let sum = 0;
+    for (let i = 1; i <= a; i++) {
+    sum = sum + (i * i)
+    console.log(sum);
+    }
+}
+bodlogo7071 (5)
 
-//let a = 9
-//let sum = 0;
-//for (let i = 1; i <= a; i++)  {
-//    if (i % 2 == 1) {
-//        sum = sum + i
-//    }
-//    console.log(sum);
-//}
+
+7072
+console.log(7072);
+function bodlogo7072 (a) {
+    let sum = 0;
+    for (let i = 1; i <= a; i++)  {
+        if (i % 2 == 1) {
+            sum = sum + i
+        }
+        console.log(sum);
+    }
+    return sum
+}
+bodlogo7072(9);
 
 
 // 7301 
@@ -659,12 +663,12 @@ bodlogo7019(2, 3, 4)
 
 // 7400
 
-//let a = 5;
-//let sum = '';
-//for (let i = 1; i <= a; i++){
-//    sum = sum + i
-//}
-//console.log(sum);
+let l = 5;
+let sum = '';
+for (let i = 1; i <= l; i++){
+    sum = sum + i
+}
+console.log(sum);
 
 
 // 7402
@@ -687,6 +691,12 @@ bodlogo7019(2, 3, 4)
 //}
 //console.log(getEven(array));
 
+//let name = "zulsar"
+//function capital (n) {
+//    n.tolowercase();
+//    n[0].touppercase();
+//    return n;
+//}
 
 
 
