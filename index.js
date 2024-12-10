@@ -1,10 +1,11 @@
-
+console.log(7001);
 7001
 function bodlogo7001 (a, b) {
     console.log ((a + b));
 }
 bodlogo7001 (12, 23);
 
+console.log(7004);
 7004
 function bodlogo7004 (a) {
     console.log(Math.pow(a, 3));
@@ -12,24 +13,26 @@ function bodlogo7004 (a) {
 bodlogo7004 (5)
 //bodlogo7004 (a = prompt());
 
+console.log(7003);
 7003
 function bodlogo7003 (a ,b) {
     console.log(a * b, (a + b)*2);
 }
 bodlogo7003 (6, 4)
 
+console.log(7005);
 7005
 function bodlogo7005 (a) {
     console.log(y = 3 * a - 5);
 }
 bodlogo7005 (1)
 
+console.log(7006);
 7006
 function bodlogo7006 (a) {
     console.log((Math.pow(2, (4 * a))) - 3 * a + 5);
 } 
 bodlogo7006 (-2)
-
 
 //6
 //let x = -2
@@ -43,12 +46,14 @@ bodlogo7006 (-2)
 //q = w - 3*x + 5
 //console.log(q)
 
+console.log(7007);
 7007
 function bodlogo7007 (a) {
     console.log(a % 10);
 }
 bodlogo7007 (476)
 
+console.log(7008);
 7008
 function bodlogo7008 (a) {
     console.log(b= Math.floor(a % 100 / 10));
@@ -57,14 +62,14 @@ bodlogo7008 (423)
 
 
 console.log(7009);
-
 7009
 function bodlogo7009 (a) {
     let onedigit = parseInt
-
+2
 }
 bodlogo7009 (27)
 
+console.log(7010);
 7010
 function bodlogo7010 (a) {
     let str = a.toString();
@@ -91,13 +96,14 @@ console.log(bodlogo7010(a));
 //console.log(Math.floor(p))
 //let all = (suuliintoo * Math.floor(h) * Math.floor(p))
 //console.log(Math.floor(all))
-
+console.log(7011);
 7011
 function bodlogo7011 (a) {
     console.log(Math.floor(a / 60), a % 60);
 }
 bodlogo7011 (200);
 
+console.log(7012);
 7012
 function bodlogo7012(a) {
     console.log(Math.floor(a / 3600));
@@ -107,18 +113,21 @@ function bodlogo7012(a) {
 }
 bodlogo7012 (3612)
 
+console.log(7013);
 7013
 function bodlogo7013(a, b) {
     console.log((a * 60) + b);
 }
 bodlogo7013 (3, 4)
 
+console.log(7014);
 7014
 function bodlogo7014 (a, b, c) {
     console.log((a * 3600) + (b * 60) + c);
 }
 bodlogo7014 (1, 2, 3)
 
+console.log(7015);
 7015
 function bodlogo7015 (a) {
     let honog = Math.floor(a / 24)
@@ -127,12 +136,14 @@ function bodlogo7015 (a) {
 }
 bodlogo7015 (98)
 
+console.log(7016);
 7016
 function bodlogo7016 (a, b) {
     console.log((a * 24) + b);
 }
 bodlogo7016 (4, 6)
 
+console.log(7017);
 7017
 function bodlogo7017 (a) {
     let sar = a % 12
@@ -141,25 +152,28 @@ function bodlogo7017 (a) {
 }
 bodlogo7017 (27)
 
+console.log(7018);
 7018
 function bodlogo7018 (a, b) {
     console.log((a * 12) + b);
 }
 bodlogo7018 (2, 7)
 
+console.log(7101);
 7101
 function bodlogo7101 (a, b) {
     console.log(Math.max(a, b));
 }
 bodlogo7101 (14, 16)
 
+console.log(7102);
 7102
 function bodlogo7102 (a, b) {
     console.log(Math.min(a, b));
 }
 bodlogo7102 (6, 9)
 
-
+console.log(7105);
 7105
 function bodlogo7105 (a, b, c, d) {
     let sum = 0;
@@ -179,6 +193,7 @@ function bodlogo7105 (a, b, c, d) {
     }
 bodlogo7105 (88, 88, 99, 100)
 
+console.log(7106);
 7106
 function bodlogo7106 (a, b, c, d) {
     let sum = 1
@@ -200,6 +215,7 @@ function bodlogo7106 (a, b, c, d) {
 }
 bodlogo7106 (3, 6, 2, 104)
 
+console.log(7107);
 7107
 function bodlogo7107 (a, b, c) {
     let sum = 0;
@@ -217,6 +233,7 @@ function bodlogo7107 (a, b, c) {
 }
 bodlogo7107 (12, 5, 6)
 
+console.log(7108);
 7108
 function bodlogo7108 (a, b, c) {
     let sum = 1;
@@ -234,6 +251,7 @@ function bodlogo7108 (a, b, c) {
 }
 bodlogo7108 (11, 5, 6)
 
+console.log(7109);
 7109 
 function bodlogo7109 (a, b, c) {
     let sum = 0;
@@ -251,6 +269,7 @@ function bodlogo7109 (a, b, c) {
 }
 bodlogo7109 (1, 5, 5)
 
+console.log(7110);
 7110
 function bodlogo7110 (a, b, c, d) {
     let sum = 1;
@@ -267,6 +286,7 @@ function bodlogo7110 (a, b, c, d) {
 }
 bodlogo7110 (3, 3, 3, 3)
 
+console.log(7111);
 7111
 function bodlogo7111 (a, b, c, d) {
     let sum = 0;
@@ -295,6 +315,7 @@ console.log(sum);
 }
 bodlogo7111 (11, 22, 33, 41)
 
+console.log(7112);
 7112 
 function bodlogo7112 (a) {
     if (a > 10) {
@@ -305,6 +326,7 @@ function bodlogo7112 (a) {
 }
 bodlogo7112(11)
 
+console.log(7113);
 7113
 function bodlogo7113 (a) {
     if(a < 5){
@@ -315,6 +337,7 @@ function bodlogo7113 (a) {
 }
 bodlogo7113 (7)
 
+console.log(7114);
 7114 
 function bodlogo7114 (a, b, c,) {
     if(a % 2 == 0){
@@ -402,7 +425,7 @@ bodlogo7114 (3, 4, 5)
 // teams6
 
 //4 t hugaavddag 400 d huvaagdadgui
-
+console.log(7201);
 7201
 function bodlogo7201 (a) {
     for (let i = 0; i < a; i++)
@@ -410,6 +433,7 @@ function bodlogo7201 (a) {
 }
 bodlogo7201 (1)
 
+console.log(7204);
 7204
 function bodlogo7204 (n) {
     let sum = 0; 
@@ -420,6 +444,7 @@ function bodlogo7204 (n) {
 }
 bodlogo7204 (5)
 
+console.log(7205);
 7205
 function bodlogo7205 (n) {
     let sum = 1;
@@ -430,6 +455,7 @@ function bodlogo7205 (n) {
 }
 bodlogo7205 (10);
 
+console.log(7206);
 7206
 function bodlogo7206 (n) {
     let sum = 0
@@ -440,6 +466,7 @@ function bodlogo7206 (n) {
 }
 bodlogo7206 (6);
 
+console.log(7207);
 7207
 function bodlogo7207 (a, b) {
     let sum;
@@ -450,6 +477,7 @@ function bodlogo7207 (a, b) {
 }
 bodlogo7207 (50, 6)
 
+console.log(7208);
 7208
 function bodlogo7208 (a) {
     let sum = 1;
@@ -461,6 +489,7 @@ function bodlogo7208 (a) {
 }
 bodlogo7208 (7);
 
+console.log(7209);
 7209
 function bodlogo7209 (a, b) {
     let sum = 1;
@@ -471,6 +500,7 @@ function bodlogo7209 (a, b) {
 }
 bodlogo7209 (5, 5)
 
+console.log(7215);
 7215 
 function bodlogo7215 (a) {
     if (a > 3){
@@ -481,6 +511,7 @@ function bodlogo7215 (a) {
 }
 bodlogo7215 (5)
 
+console.log(7216);
 7216
 function bodlogo7216 (a) {
     if (a == 5){
@@ -495,6 +526,7 @@ function bodlogo7216 (a) {
 }
 bodlogo7216 (5)
 
+console.log(7118);
 7118
 function bodlogo7118 (a) {
     if (a == 1) {
@@ -515,6 +547,7 @@ function bodlogo7118 (a) {
 }
 bodlogo7118 (2)
 
+console.log(7210);
 7210 
 function bodlogo7210 (a) {
 
@@ -524,6 +557,7 @@ function bodlogo7210 (a) {
 }
 bodlogo7210 (10);
 
+console.log(7211);
 7211
 function bodlogo7211 (a, b) {
     let sum = 1;
@@ -534,6 +568,7 @@ function bodlogo7211 (a, b) {
 }
 bodlogo7211 (3, 5)
 
+console.log(7019);
 7019 
 function bodlogo7019 (b, c, d) {
     let a = b * c - d
@@ -643,6 +678,15 @@ bodlogo7019(2, 3, 4)
 //}
 
 // 7310
+
+
+//let array = [1, 2, 3, 4];
+//function getEven(array) {
+//    let even = array.map(n => n % 2 == 0);
+//    return even
+//}
+//console.log(getEven(array));
+
 
 
 
