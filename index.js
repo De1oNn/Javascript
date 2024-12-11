@@ -643,6 +643,7 @@ bodlogo7071 (5)
 
 7072
 console.log(7072);
+
 function bodlogo7072 (a) {
     let sum = 0;
     for (let i = 1; i <= a; i++)  {
@@ -794,15 +795,72 @@ for (let i = 0; i < string.length; i++) {
 console.log(total);
 */
 /*
-let num = 4632
+let num = 4623;
 let string = num.toString();
 let max = -Infinity;
 
-for (let i = 0; i < string.length; i++) {
-    let digit = parseInt(string[i], 10)
-    max = Math.max(max, digit)
+function bodlogo1 (num) {
+    for (let i = 0; i < string.length; i++) {
+        let digit = parseInt(string[i], 10)
+        max = Math.max(max, digit)
+    }
 }
+bodlogo1 (4623);
 console.log(max);
 */
+
+/*
+let num = 4;
+let string = "";
+for (let i = 1; i <= num; i++) {
+    string = string + i
+    console.log(string);    
+}
+for (let i = 0; i < num; i++){
+    console.log(string);
+}
+*/
+/*
+let num = 5
+let string = "";
+let reverse = "";
+for (let i = 1; i < num; i++){
+    string = string + i
+
+    console.log(string);
+}
+*/
+/*
+let fullName = "Bold bat";
+
+function formatName (name) {
+    let firstNAme = name.split(" ")[1];
+    let lastNAme = name.split(" ")[0];
+    console.log(lastNAme);
+    console.log(firstNAme);
+    let firstchar = lastNAme[0];
+    console.log(firstchar);
+    
+    return firstchar + ". " + firstNAme
+}
+console.log(formatName(fullName));
+*/
+// Bat.a@gmail.com
+/*
+let fullName = "A Bat";
+
+function email (name) {
+    let firstName = name.split(" ")[1];
+    console.log(firstName);
+    let lastName = name.split(" ")[0];
+    console.log(lastName);
+    let lowercase = lastName.toLowerCase();
+    console.log(lowercase);
+    return firstName + "." + lowercase + "@gmail.com"
+}
+console.log(email(fullName));
+*/
+
+
 
 
