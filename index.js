@@ -17,6 +17,7 @@ console.log(7003);
 7003
 function bodlogo7003 (a ,b) {
     console.log(a * b, (a + b)*2);
+    return
 }
 bodlogo7003 (6, 4)
 
@@ -24,6 +25,7 @@ console.log(7005);
 7005
 function bodlogo7005 (a) {
     console.log(y = 3 * a - 5);
+    return y;
 }
 bodlogo7005 (1)
 
@@ -210,7 +212,6 @@ function bodlogo7106 (a, b, c, d) {
     if (d>5) {
     sum = sum * d
     }
-
     console.log(sum);
 }
 bodlogo7106 (3, 6, 2, 104)
@@ -650,7 +651,7 @@ function bodlogo7072 (a) {
         }
         console.log(sum);
     }
-    return sum
+    return sum;
 }
 bodlogo7072(9);
 
@@ -661,42 +662,95 @@ bodlogo7072(9);
 //let b = a[0]
 //console.log(b);
 
-// 7400
-
-let l = 5;
-let sum = '';
-for (let i = 1; i <= l; i++){
-    sum = sum + i
+/*7400
+console.log(7400);
+function bodlogo7400 (a) {
+    let sum = '';
+    for (let i = 1; i <= a; i++){
+        sum = sum + i
+    }
 }
 console.log(sum);
 
-
 // 7402
 
-//let a = 5;
-//let sum = '';
+let p = 5;
+let sum = '';
 
-//for (let i = 1; i <= a; i++) {
-//    sum += i
-//    console.log(sum);
-//}
+for (let i = 1; i <= p; i++) {
+    sum += i
+    console.log(sum);
+}*/
+/*let today = new Date();
+  let day = today.getDay();
+  let daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+  console.log("Today is : " + daylist[day] + ".");
+  let hour = today.getHours();
+  let minute = today.getMinutes();
+  let second = today.getSeconds();
+  let prepand = (hour >= 12)? " PM ":" AM ";
+  hour = (hour >= 12)? hour - 12: hour;
+  if (hour===0 && prepand===' PM ') 
+  { 
+  if (minute===0 && second===0)
+  { 
+  hour=12;
+  prepand=' Noon';
+  } 
+  else
+  { 
+  hour=12;
+  prepand=' PM';
+  } 
+  } 
+  if (hour===0 && prepand===' AM ') 
+  { 
+  if (minute===0 && second===0)
+  { 
+  hour=12;
+  prepand=' Midnight';
+  } 
+  else
+  { 
+  hour=12;
+  prepand=' AM';
+  } 
+  } 
+console.log("Current Time : "+hour + prepand + " : " + minute + " : " + second);
+*/
 
-// 7310
+/*let today = new Date();
+let dd = today.getDate();
 
+let mm = today.getMonth()+1; 
+const yyyy = today.getFullYear();
+if(dd<10) 
+{
+    dd=`0${dd}`;
+} 
 
-//let array = [1, 2, 3, 4];
-//function getEven(array) {
-//    let even = array.map(n => n % 2 == 0);
-//    return even
-//}
-//console.log(getEven(array));
+if(mm<10) 
+{
+    mm=`0${mm}`;
+} 
+today = `${mm}-${dd}-${yyyy}`;
+console.log(today);
+today = `${mm}/${dd}/${yyyy}`;
+console.log(today);
+today = `${dd}-${mm}-${yyyy}`;
+console.log(today);
+today = `${dd}/${mm}/${yyyy}`;
+console.log(today);
+*/
+/*
+let side1 = 5
+let side2 = 6
+let side3 = 7
 
-//let name = "zulsar"
-//function capital (n) {
-//    n.tolowercase();
-//    n[0].touppercase();
-//    return n;
-//}
+let whole = (side1 + side2 + side3) / 2;
+let area = Math.sqrt(whole * ((whole - side1)*(whole -side2)*(whole-side3)));
+console.log(area);
+*/
 
 
 
