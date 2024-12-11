@@ -752,6 +752,57 @@ let area = Math.sqrt(whole * ((whole - side1)*(whole -side2)*(whole-side3)));
 console.log(area);
 */
 
+/*
+let even = 34567
+let string = even.toString(); 
 
+for (let i = 0; i <= string.length; i++) {
+    let digit = parseInt(string[i], 10)
+    if (digit % 2 === 0) {
+        return false;
+    }
+return true
+}
+console.log(string);
+*/
+/*
+let odd = 23457
+let string = odd.toString();
+let result = "";  
+let total = "";
+for (let i = 0; i <= string.length; i++) {
+    let digit = parseInt(string[i], 10)
+    if (digit % 2 == 1) {
+        result += string[i];
+        total = i + i;
+    }
+}
+console.log(result);
+console.log(total);
+*/
+console.log(123456789);
+
+/*
+let num = 234
+let string = num.toString();
+let total = 0;
+
+for (let i = 0; i < string.length; i++) {
+    let digit = parseInt(string[i], 10)
+    total += digit; 
+}
+console.log(total);
+*/
+/*
+let num = 4632
+let string = num.toString();
+let max = -Infinity;
+
+for (let i = 0; i < string.length; i++) {
+    let digit = parseInt(string[i], 10)
+    max = Math.max(max, digit)
+}
+console.log(max);
+*/
 
 
