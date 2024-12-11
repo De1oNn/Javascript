@@ -851,16 +851,51 @@ let fullName = "A Bat";
 
 function email (name) {
     let firstName = name.split(" ")[1];
-    console.log(firstName);
     let lastName = name.split(" ")[0];
-    console.log(lastName);
-    let lowercase = lastName.toLowerCase();
-    console.log(lowercase);
-    return firstName + "." + lowercase + "@gmail.com"
+    let lowercaselastname = lastName.toLowerCase();
+    let lowercasefirstName = firstName.toLowerCase();
+    return lowercasefirstName + "." + lowercaselastname + "@gmail.com"
 }
 console.log(email(fullName));
 */
 
+/*
+let num = 5
+let string = "";
+let reverse = "";
+for (let i = 1; i <= num; i++) {
+    string = string + i + " ";
+    console.log(string);
+    reverse = string.toString().split('').reverse().join('');
+    console.log(reverse);
+}
+for (let i = 1; i <= num; i++) {
+    console.log(reverse);
+} 
+*/
+/*
+let fullName = "Sh Bold"
 
+function email (name) {
+    let firstName = name.split(" ")[0];
+    let lastName = name.split(" ")[1];
+    let lowercasefirstName = firstName.toLowerCase();
+    let lowercaselastname = lastName.toLowerCase();
+    return lowercaselastname + "." + lowercasefirstName + "@gmail.com"
+}
+console.log(email(fullName));
+*/
+/*
+let num1 = prompt("too1")
+let num2 = prompt("too2")
+let num3 = prompt("too3")
+let num4 = prompt("too4")
 
+let num11 = parseInt(num1, 10);
+let num22 = parseInt(num2, 10);
+let num33 = parseInt(num3, 10);
+let num44 = parseInt(num4, 10);
 
+let total = num11 + num22 + num33 + num44
+console.log(total);
+*/
