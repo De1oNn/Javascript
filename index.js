@@ -795,6 +795,7 @@ for (let i = 0; i < string.length; i++) {
 console.log(total);
 */
 /*
+// 7306
 let num = 4623;
 let string = num.toString();
 let max = -Infinity;
@@ -899,3 +900,47 @@ let num44 = parseInt(num4, 10);
 let total = num11 + num22 + num33 + num44
 console.log(total);
 */
+/*
+let num = 5
+let empty = 0;
+for (let i = 1; i <= num; i++) {
+    let square = i ** 3;
+    empty += square  
+    console.log(empty);
+}
+*/
+/*
+let num = 5
+let empty = 0
+
+function triple (number) {
+    for (let i = 1; i <= num; i++) {
+        let square = i ** 3;
+        empty += square  
+        console.log(empty);
+    }
+}
+console.log(triple(num));
+*/
+/*
+let num = "1" 
+let aaa = Number(num)
+console.log(typeof aaa);
+console.log(typeof num);
+let bbb = 1
+console.log(typeof bbb);
+let ccc = bbb.toString();
+console.log(typeof ccc);
+*/
+
+// 7212
+/*
+    let num = 10
+    let zero = 1
+    for(let i = 1; i <= num; i++){
+        zero = i * zero
+        console.log(`${i}! = ${zero} `);
+    }
+*/
+
+
